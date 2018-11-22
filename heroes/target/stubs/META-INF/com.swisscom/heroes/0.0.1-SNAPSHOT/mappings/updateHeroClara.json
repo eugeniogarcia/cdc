@@ -1,0 +1,22 @@
+{
+  "id" : "43fec2b3-2bf4-4439-b76f-f642515d4c2c",
+  "request" : {
+    "url" : "/heroes",
+    "method" : "PUT",
+    "headers" : {
+      "Content-Type" : {
+        "equalTo" : "application/json"
+      }
+    },
+    "bodyPatterns" : [ {
+      "matchesJsonPath" : "$[?(@.['name'] == 'Clara')]"
+    }, {
+      "matchesJsonPath" : "$[?(@.['id'] == '3')]"
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "43fec2b3-2bf4-4439-b76f-f642515d4c2c"
+}

@@ -1,0 +1,24 @@
+{
+  "id" : "190ffd43-0d00-4095-a0ed-19e0e765bf8a",
+  "request" : {
+    "url" : "/heroes",
+    "method" : "POST",
+    "headers" : {
+      "Content-Type" : {
+        "equalTo" : "application/json"
+      }
+    },
+    "bodyPatterns" : [ {
+      "matchesJsonPath" : "$[?(@.['name'] == 'Eugenio')]"
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"name\":\"Eugenio\",\"id\":\"6\"}",
+    "headers" : {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "190ffd43-0d00-4095-a0ed-19e0e765bf8a"
+}

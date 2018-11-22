@@ -1,0 +1,17 @@
+{
+  "id" : "0be3bde7-3873-4177-8d8c-3c87f271d2c5",
+  "request" : {
+    "url" : "/heroes/120",
+    "method" : "DELETE",
+    "headers" : {
+      "Content-Type" : {
+        "equalTo" : "application/json"
+      }
+    }
+  },
+  "response" : {
+    "status" : 400,
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "0be3bde7-3873-4177-8d8c-3c87f271d2c5"
+}

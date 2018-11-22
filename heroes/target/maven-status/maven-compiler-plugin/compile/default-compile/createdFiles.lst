@@ -1,0 +1,7 @@
+com\swisscom\heroes\controller\heroesController.class
+com\swisscom\heroes\Configure.class
+com\swisscom\heroes\model\Hero$1.class
+com\swisscom\heroes\HeroesApplication.class
+com\swisscom\hero\datasource\heroesDS.class
+com\swisscom\heroes\model\Hero$Builder.class
+com\swisscom\heroes\model\Hero.class

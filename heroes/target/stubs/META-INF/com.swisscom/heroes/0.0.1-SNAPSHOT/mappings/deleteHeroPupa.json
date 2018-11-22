@@ -1,0 +1,17 @@
+{
+  "id" : "28e11ff9-6be5-42b6-a26a-307ef4c1395c",
+  "request" : {
+    "url" : "/heroes/1",
+    "method" : "DELETE",
+    "headers" : {
+      "Content-Type" : {
+        "equalTo" : "application/json"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "28e11ff9-6be5-42b6-a26a-307ef4c1395c"
+}

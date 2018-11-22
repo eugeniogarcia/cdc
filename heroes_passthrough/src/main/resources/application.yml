@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: heroes_passthrough
+    
+server:
+  port: 8085
+        
+ubicacion: http://retaco:8083

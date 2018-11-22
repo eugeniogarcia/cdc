@@ -1,0 +1,16 @@
+{
+  "id" : "c6630614-1cd2-4929-bc41-5ae7734ca380",
+  "request" : {
+    "url" : "/heroes/2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"name\":\"Nani\",\"id\":\"2\"}",
+    "headers" : {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "c6630614-1cd2-4929-bc41-5ae7734ca380"
+}

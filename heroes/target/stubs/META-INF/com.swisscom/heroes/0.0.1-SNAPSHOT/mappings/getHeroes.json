@@ -1,0 +1,21 @@
+{
+  "id" : "29c9629b-8825-42e1-b20b-304eedcf4d8c",
+  "request" : {
+    "url" : "/heroes",
+    "method" : "GET",
+    "headers" : {
+      "Content-Type" : {
+        "equalTo" : "application/json"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "[{\"id\":\"4\",\"name\":\"Nico\"},{\"id\":\"2\",\"name\":\"Nani\"},{\"id\":\"3\",\"name\":\"Mausi\"},{\"id\":\"5\",\"name\":\"Vera\"}]",
+    "headers" : {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "29c9629b-8825-42e1-b20b-304eedcf4d8c"
+}

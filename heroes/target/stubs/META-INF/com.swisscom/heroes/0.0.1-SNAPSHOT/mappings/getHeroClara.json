@@ -1,0 +1,21 @@
+{
+  "id" : "840bc5ea-8d32-4ac4-8bed-a8fcd3c1db06",
+  "request" : {
+    "url" : "/heroes/3",
+    "method" : "GET",
+    "headers" : {
+      "Content-Type" : {
+        "equalTo" : "application/json"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"name\":\"Mausi\",\"id\":\"3\"}",
+    "headers" : {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "840bc5ea-8d32-4ac4-8bed-a8fcd3c1db06"
+}

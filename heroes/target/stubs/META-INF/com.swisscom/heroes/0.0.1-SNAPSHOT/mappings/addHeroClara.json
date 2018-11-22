@@ -1,0 +1,24 @@
+{
+  "id" : "4ab84fac-95c6-4b9b-b498-28fa20db351f",
+  "request" : {
+    "url" : "/heroes",
+    "method" : "POST",
+    "headers" : {
+      "Content-Type" : {
+        "equalTo" : "application/json"
+      }
+    },
+    "bodyPatterns" : [ {
+      "matchesJsonPath" : "$[?(@.['name'] == 'Vera')]"
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"name\":\"Vera\",\"id\":\"5\"}",
+    "headers" : {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "4ab84fac-95c6-4b9b-b498-28fa20db351f"
+}
