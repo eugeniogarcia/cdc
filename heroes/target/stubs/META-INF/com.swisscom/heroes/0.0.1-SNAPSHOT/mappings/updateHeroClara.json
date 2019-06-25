@@ -1,5 +1,5 @@
 {
-  "id" : "43fec2b3-2bf4-4439-b76f-f642515d4c2c",
+  "id" : "fc9dc4a3-020d-4206-ae4f-ab80b2107e8d",
   "request" : {
     "url" : "/heroes",
     "method" : "PUT",
@@ -18,5 +18,5 @@
     "status" : 200,
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "43fec2b3-2bf4-4439-b76f-f642515d4c2c"
+  "uuid" : "fc9dc4a3-020d-4206-ae4f-ab80b2107e8d"
 }

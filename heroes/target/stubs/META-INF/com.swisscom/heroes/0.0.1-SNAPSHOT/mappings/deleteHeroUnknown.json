@@ -1,5 +1,5 @@
 {
-  "id" : "0be3bde7-3873-4177-8d8c-3c87f271d2c5",
+  "id" : "ed1fb4cc-d0f3-417d-a3a7-01499590c862",
   "request" : {
     "url" : "/heroes/120",
     "method" : "DELETE",
@@ -13,5 +13,5 @@
     "status" : 400,
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "0be3bde7-3873-4177-8d8c-3c87f271d2c5"
+  "uuid" : "ed1fb4cc-d0f3-417d-a3a7-01499590c862"
 }

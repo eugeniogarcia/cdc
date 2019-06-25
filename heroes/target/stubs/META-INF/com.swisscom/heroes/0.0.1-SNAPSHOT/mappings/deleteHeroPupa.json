@@ -1,5 +1,5 @@
 {
-  "id" : "28e11ff9-6be5-42b6-a26a-307ef4c1395c",
+  "id" : "004a4291-bb3f-4bdf-b8af-54ff1b251bae",
   "request" : {
     "url" : "/heroes/1",
     "method" : "DELETE",
@@ -13,5 +13,5 @@
     "status" : 200,
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "28e11ff9-6be5-42b6-a26a-307ef4c1395c"
+  "uuid" : "004a4291-bb3f-4bdf-b8af-54ff1b251bae"
 }
